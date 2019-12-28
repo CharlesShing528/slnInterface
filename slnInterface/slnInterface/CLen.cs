@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace slnInterface
-{
-    class CLen:IConvert
+{   
+    class CLen:IConvert     //定義名稱為 CLen 類別實作 IConvert 介面
     {
         private double mult = 2.54;     //linch=2.54 cm
         public double Mult              //實作倍率屬性
