@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 /// <summary>
 /// 一個類別可以同時實作多個介面，其做法是在該類別宣告時
 /// ，在「類別名稱：」後面接多個介面名稱，名稱間要用逗號「，」隔開。
+/// 
+/// 類別 CStudent 一但實作介面 IPass 和 ILevel 時，IPass 和 ILevel介面內宣告的
+/// 所有成員都要在類別 CStudent 內被實作才能被編譯器接受。
+/// 若介面 ILevel 繼承介面 IPass 的類別 CStudent，必須實作介面 IPass 和 ILevel的成員
 /// </summary>
 namespace Ex_Interface02
 {
